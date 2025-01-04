@@ -59,6 +59,23 @@ ul li {
     margin-bottom: 10px;
 }
 
+.typing {
+    border-right: 2px solid green;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: green; }
+}
+
 @media screen and (max-width: 600px) {
     .container {
         width: 95%;
