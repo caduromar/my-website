@@ -1,7 +1,16 @@
+/* Define the custom font */
+@font-face {
+    font-family: 'ModernDOS';
+    src: url('fonts/ModernDOS9x14.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the custom font */
 body {
     background-color: black;
     color: green;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'ModernDOS', 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
 }
@@ -53,14 +62,5 @@ ul li {
 @media screen and (max-width: 600px) {
     .container {
         width: 95%;
-    }
-
-@font-face {
-    font-family: 'CustomFont';
-    src: url('fonts/CustomFont.woff2') format('woff2'),
-         url('fonts/CustomFont.woff') format('woff'),
-         url('fonts/CustomFont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
     }
 }
