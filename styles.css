@@ -54,4 +54,13 @@ ul li {
     .container {
         width: 95%;
     }
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/CustomFont.woff2') format('woff2'),
+         url('fonts/CustomFont.woff') format('woff'),
+         url('fonts/CustomFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
 }
