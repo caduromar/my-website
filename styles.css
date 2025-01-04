@@ -10,7 +10,7 @@
 body {
     background-color: black;
     color: green;
-    font-family: 'ModernDOS', 'Courier New', Courier, monospace;
+    font-family: 'ModernDOS', monospace;
     margin: 0;
     padding: 0;
 }
