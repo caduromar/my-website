@@ -9,38 +9,47 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>John Doe</h1>
-            <p>Junior Cyber Security Analyst</p>
+            <h1 class="typing">John Doe</h1>
+            <p class="typing">Junior Cyber Security Analyst</p>
         </div>
         <div class="content">
             <section>
-                <h2>About Me</h2>
-                <p>Hello! I am a passionate junior cyber security analyst with a strong interest in protecting systems and data from digital threats.</p>
+                <h2 class="typing">About Me</h2>
+                <p class="typing">Hello! I am a passionate junior cyber security analyst with a strong interest in protecting systems and data from digital threats.</p>
             </section>
             <section>
-                <h2>Skills</h2>
+                <h2 class="typing">Skills</h2>
                 <ul>
-                    <li>Network Security</li>
-                    <li>Penetration Testing</li>
-                    <li>Incident Response</li>
-                    <li>Security Information and Event Management (SIEM)</li>
+                    <li class="typing">Network Security</li>
+                    <li class="typing">Penetration Testing</li>
+                    <li class="typing">Incident Response</li>
+                    <li class="typing">Security Information and Event Management (SIEM)</li>
                 </ul>
             </section>
             <section>
-                <h2>Experience</h2>
+                <h2 class="typing">Experience</h2>
                 <ul>
-                    <li>Cyber Security Intern at XYZ Corp (2024 - Present)</li>
-                    <li>IT Support Technician at ABC Inc (2023 - 2024)</li>
+                    <li class="typing">Cyber Security Intern at XYZ Corp (2024 - Present)</li>
+                    <li class="typing">IT Support Technician at ABC Inc (2023 - 2024)</li>
                 </ul>
             </section>
             <section>
-                <h2>Education</h2>
+                <h2 class="typing">Education</h2>
                 <ul>
-                    <li>Bachelor's in Computer Science, University of Technology (2020 - 2024)</li>
-                    <li>Certified Ethical Hacker (CEH) (2023)</li>
+                    <li class="typing">Bachelor's in Computer Science, University of Technology (2020 - 2024)</li>
+                    <li class="typing">Certified Ethical Hacker (CEH) (2023)</li>
                 </ul>
             </section>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elements = document.querySelectorAll('.typing');
+            elements.forEach(function(element, index) {
+                element.style.animationDelay = (index * 0.5) + 's';
+            });
+        });
+    </script>
 </body>
 </html>
