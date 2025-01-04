@@ -1,7 +1,7 @@
 /* Define the custom font */
 @font-face {
     font-family: 'ModernDOS';
-    src: url('fonts/ModernDOS9x14.ttf') format('truetype');
+    src: url('ModernDOS9x14.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
